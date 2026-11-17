@@ -1,15 +1,15 @@
 class Wakapod < Formula
   desc "Terminal client for Wakapod"
   homepage "https://github.com/jeremieb/wakapod-terminal"
-  version "0.1.7"
+  version "0.1.8"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/jeremieb/homebrew-wakapod/releases/download/v0.1.7/wakapod-0.1.7-aarch64-apple-darwin.tar.gz"
-      sha256 "f5545073cb61e80403c460329abcd3d67c606aabf0454d1ec6f6d4ab4b3cb838"
+      url "https://github.com/jeremieb/homebrew-wakapod/releases/download/v0.1.8/wakapod-0.1.8-aarch64-apple-darwin.tar.gz"
+      sha256 "70879223ec2a8dd0c47d96403a1c9a28990bf52184b63beba54189262e43165e"
     else
-      url "https://github.com/jeremieb/homebrew-wakapod/releases/download/v0.1.7/wakapod-0.1.7-x86_64-apple-darwin.tar.gz"
-      sha256 "0de77d02c9ae565174e713c9f26ce2c520b87d07f5f3ccefd28b7c1de17775a1"
+      url "https://github.com/jeremieb/homebrew-wakapod/releases/download/v0.1.8/wakapod-0.1.8-x86_64-apple-darwin.tar.gz"
+      sha256 "ff93ae11e2abd91280a1cf06c5d50eb171b225561b7fcac90f277ee87658e653"
     end
   end
 
